@@ -1,0 +1,90 @@
+h1{
+color: blue;
+text-align: center;
+}
+
+
+.contenedor{
+    width: 687px;
+    height: 400px;
+    background: #23A9F2; 
+    font-weight: 700;
+}
+
+.posicionada{
+    position: relative;
+    left: 25%;
+}
+
+body{
+    background: url(img/fondoContacto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+img{
+    opacity: .6;
+}
+
+/*
+Se configura el ancho y alto del form
+con el margin: auto todo lo que esta dentro 
+del form se pondra en el centro
+form{
+    margin: auto;
+    width: 700px;
+    height: 600px;
+} */
+
+
+
+fieldset{
+    font-size: 20px;
+    width: 650px; 
+    /* background: #23A9F2; */
+    
+}
+
+form{
+    background: #23A9F2; 
+    width: 687px;
+    height: auto;
+    margin: auto;
+}
+
+input[type="text"], input[type="email"], select{
+    border-color: #000;
+}
+
+
+/* Estilos botones */
+
+.btn{
+    background: #32021f;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0px 10px;
+    position: relative;
+    left: 650px;
+    top: 180px;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.extrabig{
+    font-weight: 20px;
+    padding: 15px 30px;
+}
+
+
+.naranja{background: #f9a03f;}
+
+.border-radius{
+    border-radius: 100px;
+}

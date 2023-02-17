@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorHeader{
+    width: 100%;
+    height: 90px;
+    /* background: green; */
+    background: #fff;
+    opacity: .6;
+    position: fixed;
+    z-index: 99;
+    
+}
+
+.posicion{
+    width: 700px;
+    height: 80px;
+    /* background: green;
+    opacity: .6; */
+    position: relative;
+    position: fixed;
+    left: 600px;
+    padding: 5px;
+    display: flex;  /*El display flex me va ayudar a centrar el contenido de lo que hay en este div.posicion  */
+    justify-content: center; /* justify-content: center; va a centrar todo el contenido  */
+    align-items: center;  /*align-items: center; va a centrar todo el contenido pero hacia abajo */
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    margin: 25px;
+    z-index: 99;
+    font-weight: 750; /*ANCHO DE LA LETRA  */
+    display: inline-block;
+    /* padding: 10px; */
+}
+
+.contenedorHeader .posicion a{
+    padding: 10px;
+}
+
+
+a:hover{
+    background: #f9a03f;
+    color: #fff;
+}
+
+
+.logoIzquierda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 90px;
+    /* background: gray; */
+    position: absolute;
+    bottom: 670px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    position: fixed;  /*Hacer que la imagen logo se quede inmovil  */
+    z-index: 100;
+}
+
+.fondo{
+    width: 100%;
+    height: 500px;
+
+}
+
+.imagenIz{
+    width: 400px;
+    height: 400px;
+}
+
+.imagenIzquierda{
+    width: 410px;
+    height: 410px;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafoPosicionado{
+    position: relative;
+    left: 450px;
+    bottom: 400px;
+    width: 1050px;
+    /* background: green; */
+   
+}
+
+.fontMayor{
+    font-size: 50px;
+    color: orange;
+}
+
+.FontMenor{
+    font-size: 30px;
+    color: brown;
+}
+
+.contenido{
+    font-size: 20px;
+}
+
+article .fontMayor{
+    line-height: 50px;
+}
+
+article .FontMenor{
+    line-height: 50px;
+}
+
+.bton{
+    width: 250px;
+    height: 80px;
+    /* position: relative;
+    top: 100px;
+    right: 315px; */
+}
+
+a:visited{
+    color: brown;
+}
+
+
+.imagenes{
+    width: 100%;
+    height: 1300px;
+    /* background: green; */
+    position: relative;
+    top: -300px;
+}
+/* .fotoPrincipal{
+    width: 100%;
+    height: 550px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+} */
+
+.imagenes img{
+vertical-align: top;   /*Propiedad a las imagenes, esta siver en este caso ya que hay un pequeño espaciado entre las imagenes y esta propiedad lo elimina  */
+   width: 250px;
+   height: 250px;
+   margin: 20px;
+   padding: 5px;
+   border: 1px solid #484848;
+   opacity: .5;
+    
+}
+
+.imagenes img:hover{
+    border: 1px solid #fff;
+    opacity: 1;
+}
+
+.tituloImagenes{
+    margin: 20px;
+    font-size: 35px;
+}
+
+
+/* ESTILOS DE LA PAGINA BUHO */
+
+/* Titulos de los h1 */
+.titulos{
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+}
+
+/* Configuraciones imagen del buho */
+.tamanioBuho{
+    width: 500px;
+    height: 500px;
+}
+
+/* Div de la imagen del buho */
+.imagenBuho{
+    /* background: blue; */
+    width: 510px;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clase del articulo */
+.articulo{
+    width: 1500px;
+    height: 1000px;
+    /* background: red; */
+}
+
+
+/* Accediendo al articulo, para cambiar de posicion el texto a la derecha de la pagina */
+.articulo .imagenBuho{
+    float: left;
+}
+
+/* Estilos de los parrafos con clase tamanioParrafo */
+.tamanioParrafo{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* Estilos de botones */
+
+.btn{
+    background: #32021f;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0px 10px;
+    position: relative;
+    left: 700px;
+    bottom: 10px;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.extrabig{
+    font-weight: 20px;
+    padding: 15px 30px;
+}
+
+
+.naranja{background: #f9a03f;}
+
+.border-radius{
+    border-radius: 100px;
+}
+
+
+.audios{
+    position: relative;
+    left: 600px;
+    bottom: 350px;
+    width: 300px;
+    height: 200px;
+}
+
+
+/* Configuracion mapa ubicacion */
+.ubicacion{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+
+.tamanioUbicacion{
+    color: black;
+}
+
+.footear, h4{
+    text-align: center;
+    font-size: 25px;
+    
+}

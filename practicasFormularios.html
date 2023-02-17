@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica formularios</title>
+    <link rel="stylesheet" href="practicasFormularios.css">
+    
+</head>
+<body>
+
+    <!--
+        *Etiqueta fielset se usa para agrupar elmentos de un formulario
+        *Etiqueta legend nos va servir para poner un texto en el borde del fieldset
+    -->
+
+   <div class="contenedor posicionada">
+    <h1>Contacto</h1>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Datos de contactos</legend>
+            <label for="">Nombres: </label>
+            <input type="text" placeholder="Nombre" size="55" required>
+            <br><br>
+
+            <label for="">Apellidos: </label>
+            <input type="text" placeholder="Apellidos" size="55" required>
+            <br><br>
+            
+
+            <label for="">Telefono: </label>
+            <input type="text" placeholder="Telefono" size="25" maxlength="10" required>
+
+            <!-- <label for="">Operadora: </label>
+            <select name="operadoras" id="operadora">
+                <option value="Telcel">Telcel</option>
+                <option value="Moviestar">Moviestar</option>
+                <option value="Unefon">Unefon</option>
+            </select> -->
+            <br><br>
+
+            <label for="">Correo: </label>
+            <input type="email" size="50" placeholder="Introduce email" maxlength="100" required>
+
+            <label for="">Fecha: </label>
+            <input type="date">
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Residencia</legend>
+
+
+            <label for="">Colonia: </label>
+            <input type="radio" name="colonia" id="centro"> <label for="Centro">Centro</label>
+            <input type="radio" name="colonia" id="insurgentes"> <label for="Insurgentes">Insurgentes</label>
+            <input type="radio" name="colonia" id="manila"> <label for="manila">Manila</label>
+            <br><br>
+
+            <label for="">Dirección: </label>
+            <input type="text" placeholder="Barrio, calle" size="50">
+        </fieldset>
+
+        <!-- <fieldset>
+            <legend>Postulacion</legend>
+
+            <label for="">Cargo: </label>
+            <input type="checkbox" name="cargo" id="redes"> <label for="redes">Redes</label>
+            <input type="checkbox" name="carg" id="diseñador"> <label for="diseñador">Diseñador</label>
+            <input type="checkbox" name="cargo" id="administrador"> <label for="administrador">Administrador</label>
+            <input type="checkbox" name="cargo" id="datos"> <label for="datos">Datos</label>
+            <br><br>
+
+            <label for="subir">Sube una foto: </label>
+            <input type="file" size="25" id="subir">
+
+            <br><br>
+
+            <label for="metas">Describe tus metas profesionales: </label>
+            <br><br>
+            <textarea name="metas" id="metas"></textarea>
+
+         
+        </fieldset> -->
+
+        <fieldset>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+   </div>
+
+
+    <div>
+        <a href="index.html" class="btn extrabig naranja border-radius">Volver a inicio</a>
+    </div>
+
+
+</body>
+</html>
